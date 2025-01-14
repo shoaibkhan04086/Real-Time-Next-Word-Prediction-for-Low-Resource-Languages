@@ -1,14 +1,5 @@
 # Real-Time Next-Word Prediction for Low-Resource Languages
 
-## Table of Contents
-
-1. [Project Overview](#project-overview)
-2. [Installation Instructions](#installation-instructions)
-3. [Usage](#usage)
-4. [Model Architecture](#model-architecture)
-5. [Model Evaluation](#model-evaluation)
-6. [License](#license)
-
 ## Project Overview
 
 This project focuses on **next-word prediction** for **low-resource languages**, specifically targeting **Hinglish (Hindi-English code-mixed)** datasets. The goal is to create a robust solution for predicting the next word in real-time, tailored to handle the challenges posed by multilingual and code-mixed text.
