@@ -14,19 +14,16 @@ The application of this model is aimed at improving real-time text prediction in
 - Uses **LSTM** for handling sequential data and generating predictions.
 - Predicts the next word based on the given input text.
 
-## Installation Instructions
+## Import libraries
 
-### Prerequisites
+Before running the project, you need to have Python installed on your system. You can also work on google collab :
 
-Before running the project, you need to have Python installed on your system. You also need to install the following Python libraries:
+import numpy as np
+import tensorflow as tf
+from tensorflow.keras.preprocessing.text import Tokenizer
+from tensorflow.keras.preprocessing.sequence import pad_sequences
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Embedding, LSTM, Dense
+from tensorflow.keras.utils import to_categorical
 
-- `numpy`
-- `pandas`
-- `tensorflow`
-- `nltk`
-- `scikit-learn`
 
-You can install the required dependencies by running the following:
-
-```bash
-pip install numpy pandas tensorflow nltk scikit-learn
