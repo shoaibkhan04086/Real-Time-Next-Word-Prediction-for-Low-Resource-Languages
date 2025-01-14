@@ -18,12 +18,12 @@ The application of this model is aimed at improving real-time text prediction in
 
 Before running the project, you need to have Python installed on your system. You can also work on google collab :
 
-import numpy as np
-import tensorflow as tf
-from tensorflow.keras.preprocessing.text import Tokenizer
-from tensorflow.keras.preprocessing.sequence import pad_sequences
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Embedding, LSTM, Dense
-from tensorflow.keras.utils import to_categorical
+- import numpy as np
+- import tensorflow as tf
+- from tensorflow.keras.preprocessing.text import Tokenizer
+- from tensorflow.keras.preprocessing.sequence import pad_sequences
+- from tensorflow.keras.models import Sequential
+- from tensorflow.keras.layers import Embedding, LSTM, Dense
+- from tensorflow.keras.utils import to_categorical
 
 
