@@ -1,10 +1,4 @@
 # Real-Time Next-Word Prediction for Low-Resource Languages
-Overview
-This project focuses on next-word prediction for low-resource languages, specifically targeting Hinglish (Hindi-English code-mixed) datasets. The goal is to create a robust solution for predicting the next word in real-time, tailored to handle the challenges posed by multilingual and code-mixed text.
-
-Low-resource languages often lack extensive datasets, making traditional NLP approaches less effective. This project provides a scalable and efficient framework for enhancing text prediction capabilities for such languages.
-
-
 
 ## Table of Contents
 
@@ -17,7 +11,12 @@ Low-resource languages often lack extensive datasets, making traditional NLP app
 
 ## Project Overview
 
-This project leverages **LSTM (Long Short-Term Memory)** networks for **Next-Word Prediction** on the Sherlock Holmes text dataset. The objective is to predict the next word in a given sentence or phrase. The model is trained on the dialogues and text from the Sherlock Holmes stories to capture the patterns and sequences in the language.
+This project focuses on **next-word prediction** for **low-resource languages**, specifically targeting **Hinglish (Hindi-English code-mixed)** datasets. The goal is to create a robust solution for predicting the next word in real-time, tailored to handle the challenges posed by multilingual and code-mixed text.
+
+Low-resource languages often lack extensive datasets, making traditional NLP approaches less effective. This project provides a scalable and efficient framework for enhancing text prediction capabilities for such languages. The model utilizes **LSTM (Long Short-Term Memory)** networks to predict the next word in a sequence, trained on a **Hinglish** dataset to capture the intricacies of code-mixing between Hindi and English.
+
+The application of this model is aimed at improving real-time text prediction in chatbots, virtual assistants, and other real-time applications in low-resource languages.
+
 
 ### Features:
 - Trained using a dataset of Sherlock Holmes stories.
